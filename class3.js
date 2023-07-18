@@ -1,0 +1,18 @@
+function interval() {
+
+    console.log('Print after 10 seconds');
+
+}
+setInterval(interval, 10000);
+
+
+function showTime() {
+
+    let dateTime= new Date();
+
+    let time = dateTime.toLocaleTimeString();
+
+    console.log(time)
+
+}
+let display = setInterval(showTime, 5000);
